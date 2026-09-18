@@ -1,0 +1,37 @@
+{
+  "name": "trackiq-amazon-wasted-spend",
+  "title": "TrackIQ: Amazon Wasted-Spend Sweeper",
+  "category": "advertising",
+  "version": "1.0.0",
+  "updated": "2026-09-18",
+  "summary": "Finds Amazon advertising spend that is not paying for itself \u2014 keywords that spent and sold nothing, keywords bidding above what they return, the same keyword duplicated across ad groups bidding against itself, and search terms worth negating \u2014 then produces an Amazon bulk-operations workbook with the campaign, ad group and keyword IDs already attached, plus a one-page summary of what is being cut",
+  "changelog": "First public release.",
+  "requires": {
+    "mcp": [
+      "trackiq"
+    ],
+    "tools": [
+      "get_ad_groups",
+      "get_campaigns",
+      "get_search_terms",
+      "get_targets",
+      "list_marketplaces"
+    ],
+    "filesystem": true,
+    "network": false,
+    "third_party_apis": []
+  },
+  "delivery": {
+    "methods": [
+      "in-chat",
+      "file",
+      "slack",
+      "n8n",
+      "email"
+    ],
+    "default": "in-chat",
+    "note": "in-chat always works and is the fallback. Outward sends confirm first."
+  },
+  "homepage": "https://trackiq.com/skills/trackiq-amazon-wasted-spend",
+  "license": "MIT"
+}
