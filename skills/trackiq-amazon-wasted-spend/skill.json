@@ -4,7 +4,7 @@
   "category": "advertising",
   "version": "1.0.0",
   "updated": "2026-09-18",
-  "summary": "Finds Amazon advertising spend that is not paying for itself \u2014 keywords that spent and sold nothing, keywords bidding above what they return, the same keyword duplicated across ad groups bidding against itself, and search terms worth negating \u2014 then produces an Amazon bulk-operations workbook with the campaign, ad group and keyword IDs already attached, plus a one-page summary of what is being cut",
+  "summary": "Finds Amazon advertising spend that is not paying for itself \u2014 keywords that spent and sold nothing, keywords bidding above what they return, the same keyword duplicated across ad groups bidding against itself, and search terms worth negating \u2014 then produces an Amazon bulk-operations workbook with the campaign, ad group and keyword IDs already attached, plus a one-page summary of what is being cut and why.",
   "changelog": "First public release.",
   "requires": {
     "mcp": [
