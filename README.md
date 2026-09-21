@@ -4,7 +4,7 @@ Finds the Sponsored Products keyword spend that is not paying for itself, and ha
 
 Run it weekly. The value compounds, because each run reports what the last one recovered.
 
-Part of **Amazon Advertising** in the
+Part of **Amazon Sponsored Ads** in the
 [TrackIQ skills catalog](https://github.com/TrackIQ-HQ/amazon-seller-skills).
 
 Built as an [Agent Skill](https://code.claude.com/docs/en/skills). Runs in
